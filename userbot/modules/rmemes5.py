@@ -526,3 +526,11 @@ async def koc(e):
         await e.edit("A NIH BOSS")
         sleep(1)
         await e.edit("☠️DISTRICT A☠️")
+
+CMD_HELP.update({
+    "memes10":
+    "`.cinta`\
+    \nUsage: mengirim cintamu ke seseorang.\
+    \n\n`.distrik` ;  `.gblk`\
+    \nUsage: cobalah sndiri ngentot."
+})
