@@ -448,19 +448,19 @@ async def typewriter(typew):
 @register(outgoing=True, pattern='^.gblk(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("WOI GOBLOK!!!")
+    await typew.edit("DISTRIK A DATENG NIH")
     sleep(2)
     await typew.edit("KOK LU GOBLOK BANGET SIH ANJING")
     sleep(2)
-    await typew.edit("UDAH DI SIA SIA IN, DAN GA DI ANGGAP")
+    await typew.edit("MAU JADI RP SOK JAGOAN LU?")
     sleep(2)
-    await typew.edit("MASIH AJA LU PERTAHANIN, GOBLOK!!!!")
+    await typew.edit("DISAMPERIN DIEM!!!!")
     sleep(2)
     await typew.edit("UDAH LAH ANJING,GAOSAH KAYA GTU")
     sleep(2)
-    await typew.edit("JAUHIN AJA AJG, BOCAH KYA DIA MAH")
+    await typew.edit("KAGA TAKUT NIH KITA")
     sleep(2)
-    await typew.edit("TINGGALIN AJA YA AJG!!!!")
+    await typew.edit("☠️DISTRICT A NIH BOSS☠️")
     
     
 CMD_HELP.update({
@@ -526,6 +526,7 @@ async def koc(e):
         await e.edit("A NIH BOSS")
         sleep(1)
         await e.edit("☠️DISTRICT A☠️")
+
 
 CMD_HELP.update({
     "memes10":
