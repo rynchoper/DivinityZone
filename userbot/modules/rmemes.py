@@ -3057,3 +3057,13 @@ CMD_HELP.update({
 \nUsage: Jaringan Mu Lambat?? Boost Menggunakan Ini\
 \n\n\n Selamat Bersenang-Senang Kawan:v"
 })
+
+@register(outgoing=True, pattern="^.district(?: |$)(.*)")
+async def _(event):
+    if event.fwd_from:
+        return
+    deq = deque(list("District A nih senggol"))
+    for _ in range(48):
+        await asyncio.sleep(0.1)
+        await event.edit("".join(deq))
+        deq.rotate(1)
