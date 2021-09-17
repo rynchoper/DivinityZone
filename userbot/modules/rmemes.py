@@ -48,6 +48,8 @@ async def _(event):
             "Mending lo oprasi kontoll",
             "Biar lo punya kontoll",
             "Kasian cacat gada kontoll"
+            "KASIHAN GAPUNYA BOT NGAKU NGAKU PUNYA"
+            "VIRGO GASUA SOK HEBAT DEH LU SEBERAPA SIH"
         ]
 
         for i in animation_ttl:
