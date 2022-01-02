@@ -8,13 +8,13 @@ async def typewriter(typew):
     sleep(1)
     await typew.edit("`Hai Perkenalkan Namaku Ryanwica`")
     sleep(3)
-    await typew.edit(" umur gatau`")
+    await typew.edit(" umur gatau ")
     sleep(1)
     await typew.edit("`Tinggal Di Jogja, Salam Kenal:)`")
 # Create by myself @localheart
 
 
-@register(outgoing=True, pattern='^.sayang(?: |$)(.*)')
+@register(outgoing=True, pattern='^.mandi(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(3)
@@ -23,6 +23,19 @@ async def typewriter(typew):
     await typew.edit("`Gausa sok asik`")
     sleep(1)
     await typew.edit("`MINIMAL MANDI BANH`")
+# Create by myself @localheart
+
+@register(outgoing=True, pattern='^.hi(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    sleep(1)
+    await typew.edit("`Hai Salken`")
+    sleep(3)
+    await typew.edit(" Nama gua ryanwica ")
+    sleep(3)
+    await typew.edit("`Tinggal Di Jogja:)`")
+    sleep(1)
+    await typew.edit("`Salam Kenal:)`")
 # Create by myself @localheart
 
 
